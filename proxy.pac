@@ -4,6 +4,12 @@ function FindProxyForURL(url, host) {
 	{
 		return "PROXY 94.242.59.245:1448";
 	}
+        if (shExpMatch(host, "2ip.ru"))
+	{
+		return "PROXY 195.9.162.186:8080";
+	}
+	
+	
 
 	// URLs within this network are accessed through
 	// port 8080 on fastproxy.example.com:
