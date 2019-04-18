@@ -2,7 +2,7 @@ function FindProxyForURL(url, host) {
 	// our local URLs from the domains below example.com don't need a proxy:
 	if (shExpMatch(host, "*.ru"))
 	{
-		return "PROXY 31.192.109.4:3128";
+		return "PROXY 94.242.59.245:1448";
 	}
 
 	// URLs within this network are accessed through
