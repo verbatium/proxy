@@ -1,5 +1,9 @@
 function FindProxyForURL(url, host) {
 	// our local URLs from the domains below example.com don't need a proxy:
+	if (shExpMatch(host, "video*.rutube.ru"))
+	{
+		return "DIRECT";
+	}
 	if (shExpMatch(host, "*.ru"))
 	{
 		return "PROXY 195.9.162.186:8080";
