@@ -14,7 +14,8 @@ function isMedia(url, host){
 }
 
 function expectRussia(host){
-	return shExpMatch(host, "rutube.ru") ||
+	return  shExpMatch(host, "*.1tv.ru") ||
+	        shExpMatch(host, "rutube.ru") ||
 		shExpMatch(host, "bl.rutube.ru") ||
 		shExpMatch(host, "log.rutube.ru") ||
 		shExpMatch(host, "2ip.ru");
