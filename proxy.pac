@@ -4,7 +4,7 @@ function FindProxyForURL(url, host) {
 		return "DIRECT";
 	}
 	if (expectRussia(host)){
-		return "PROXY 	85.26.146.169:80";
+		return "PROXY 37.123.222.124:8080";
 	}
 	return "DIRECT";
 }
