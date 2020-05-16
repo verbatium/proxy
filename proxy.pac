@@ -4,7 +4,7 @@ function FindProxyForURL(url, host) {
 		return "DIRECT";
 	}
 	if (expectRussia(host)){
-		return "PROXY 195.9.162.186:8080";
+		return "PROXY 	81.3.179.83:3128";
 	}
 	return "DIRECT";
 }
@@ -18,5 +18,6 @@ function expectRussia(host){
 	        shExpMatch(host, "rutube.ru") ||
 		shExpMatch(host, "bl.rutube.ru") ||
 		shExpMatch(host, "log.rutube.ru") ||
-		shExpMatch(host, "2ip.ru");
+		shExpMatch(host, "2ip.ru") ||
+		shExpMatch(host, 'okko.tv');
 }
