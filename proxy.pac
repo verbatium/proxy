@@ -19,5 +19,6 @@ function expectRussia(host){
 		shExpMatch(host, "bl.rutube.ru") ||
 		shExpMatch(host, "log.rutube.ru") ||
 		shExpMatch(host, "2ip.ru") ||
+		shExpMatch(host, "ctx.playfamily.ru") ||
 		shExpMatch(host, 'okko.tv');
 }
